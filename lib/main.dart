@@ -187,10 +187,6 @@ class _TaskDashboardState extends State<TaskDashboard> {
     );
   }
 
-  // Widget button() {
-  //   return ElevatedButton(onPressed: addTask, child: Text('Add Task'));
-  // }
-
   Widget _buildTaskList() {
     return Expanded(
         child: ListView.builder(
